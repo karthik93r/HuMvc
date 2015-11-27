@@ -1,0 +1,10 @@
+pre.sf-dump {
+  background: #333333 !important;
+  * {
+    line-height: 20px;
+  }
+  .sf-dump-note, .sf-dump-protected, .sf-dump-private, .sf-dump-public {
+    font-weight: bold;
+    font-size: 15px;
+  }
+}

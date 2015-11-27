@@ -1,0 +1,12 @@
+pre.sf-dump {
+  background: #333333 !important;
+}
+pre.sf-dump * {
+  line-height: 20px;
+}
+pre.sf-dump .sf-dump-note, pre.sf-dump .sf-dump-protected, pre.sf-dump .sf-dump-private, pre.sf-dump .sf-dump-public {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=main.css.map */
