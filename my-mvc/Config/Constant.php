@@ -11,6 +11,6 @@ require_once __DIR__.'/Database.php';
 require_once __DIR__.'/Request.php';
 
 $_ENV['constant'] = [
-  'site_name' => 'site name',
-  'site_key'  => 'site key'
+    'site_name' => 'site name',
+    'site_key'  => 'site key'
 ];

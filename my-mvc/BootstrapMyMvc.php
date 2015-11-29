@@ -22,12 +22,12 @@ callAltoRouter();
  * Debug Functions.
  */
 if(isDebuger()) {
-  dump(microtime()-$app_run_time.' Time / '.round((memory_get_usage() - $app_memory_size)/1048576,2).' mb');
-  dump(errors());
-  dump($_ENV);
-  //dump(getAllInstance());
-  //dump($_SERVER);
-  //dump(array_diff(get_defined_functions()['user'], $defined_functions));
-  //dump(array_diff(get_declared_classes(), $declared_classes));
-  //dump(array_diff(get_included_files(), $included_files));
+    dump(microtime()-$app_run_time.' Time / '.round((memory_get_usage() - $app_memory_size)/1048576,2).' mb');
+    dump(errors());
+    dump($_ENV);
+    //dump(getAllInstance());
+    //dump($_SERVER);
+    //dump(array_diff(get_defined_functions()['user'], $defined_functions));
+    //dump(array_diff(get_declared_classes(), $declared_classes));
+    //dump(array_diff(get_included_files(), $included_files));
 }
